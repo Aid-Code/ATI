@@ -6,14 +6,14 @@
     {
       "children": [
         {
-          "assetLocator": "161852-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+          "assetLocator": "94307-da3660e5-e2c7-491b-949e-2a83829c3060",
           "excludeDuringExport": false,
           "excludeFromPackage": false,
-          "fontIdentity": "com.facebook.editor.fonts.facebooknarrow-bold",
-          "identifier": "local_font_model:161851-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+          "fontIdentity": "com.facebook.editor.fonts.facebookstencil-bold",
+          "identifier": "local_font_model:94306-da3660e5-e2c7-491b-949e-2a83829c3060",
           "isExternalAsset": false,
           "modelName": "local_font_model",
-          "name": "Facebook Narrow Bold"
+          "name": "Facebook Stencil Bold"
         }
       ],
       "identifier": "fonts:160103-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
@@ -96,6 +96,42 @@
           "uWrapMode": "clamp",
           "vWrapMode": "clamp",
           "width": 413
+        },
+        {
+          "alphaPremultiplicationMode": "should_premultiply",
+          "assetDataHash": "44dd3cb9fbbe60332b70ec656bc00d10",
+          "assetLocator": "textures/Xroja-removebg-preview(1).png",
+          "children": [
+            {
+              "assetDataHash": "44dd3cb9fbbe60332b70ec656bc00d10",
+              "colorCount": 10628,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 2.181825601653565,
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "pixelsHigh": 450,
+              "pixelsWide": 450
+            }
+          ],
+          "colorEncoding": "linear",
+          "compressionQuality": "high",
+          "coordMapping": "none",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 450,
+          "identifier": "texture:93000-da3660e5-e2c7-491b-949e-2a83829c3060",
+          "importIssues": {},
+          "isExternalAsset": true,
+          "modelName": "texture",
+          "name": "Xroja-removebg-preview(1)",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "clamp",
+          "vWrapMode": "clamp",
+          "width": 450
         }
       ],
       "identifier": "textures:160107-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
@@ -103,82 +139,6 @@
     },
     {
       "children": [
-        {
-          "alphaTestEnabled": false,
-          "alphaTestThreshold": 0,
-          "blendMode": "alpha",
-          "colorEncoding": "linear",
-          "cullMode": "back",
-          "diffuseFactor": "0xffffffff",
-          "diffuseTextureName": "texture:160897-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-          "diffuseTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "doubleSided": false,
-          "emissiveEnabled": false,
-          "emissiveFactor": "0xff000000",
-          "emissiveTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "identifier": "defaultMaterial:160542-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-          "importIssues": {},
-          "invertMultiply": false,
-          "isDiffuseTextureIdentifierEnabled": true,
-          "isEmissiveTextureIdentifierEnabled": false,
-          "isMultiplyTextureIdentifierEnabled": false,
-          "isNormalTextureIdentifierEnabled": false,
-          "isReflectiveTextureIdentifierEnabled": false,
-          "isSpecularTextureIdentifierEnabled": false,
-          "lightingEnabled": true,
-          "modelName": "defaultMaterial",
-          "multiplyMode": "alpha_only",
-          "multiplyTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "name": "material0",
-          "normalTextureScale": 1,
-          "normalTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "readDepth": true,
-          "reflectiveTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "shininessFactor": 1,
-          "specularTextureTransform": {
-            "offsetU": 0,
-            "offsetV": 0,
-            "rotation": 0,
-            "scaleU": 1,
-            "scaleV": 1
-          },
-          "transparency": 1,
-          "writeDepth": true,
-          "writesToColorBufferAlpha": true,
-          "writesToColorBufferBlue": true,
-          "writesToColorBufferGreen": true,
-          "writesToColorBufferRed": true
-        },
         {
           "alphaTestEnabled": false,
           "alphaTestThreshold": 0,
@@ -260,7 +220,8 @@
           "blendMode": "alpha",
           "colorEncoding": "linear",
           "cullMode": "back",
-          "diffuseFactor": "0xff000000",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureName": "texture:93000-da3660e5-e2c7-491b-949e-2a83829c3060",
           "diffuseTextureTransform": {
             "offsetU": 0,
             "offsetV": 0,
@@ -281,7 +242,7 @@
           "identifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
           "importIssues": {},
           "invertMultiply": false,
-          "isDiffuseTextureIdentifierEnabled": false,
+          "isDiffuseTextureIdentifierEnabled": true,
           "isEmissiveTextureIdentifierEnabled": false,
           "isMultiplyTextureIdentifierEnabled": false,
           "isNormalTextureIdentifierEnabled": false,
@@ -298,6 +259,81 @@
             "scaleV": 1
           },
           "name": "material2",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xff000000",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:93540-da3660e5-e2c7-491b-949e-2a83829c3060",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": false,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": true,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "material5",
           "normalTextureScale": 1,
           "normalTextureTransform": {
             "offsetU": 0,
@@ -454,36 +490,29 @@
                             "scale": false
                           },
                           "cameraVisibility": "back|front",
-                          "castShadow": false,
+                          "height": 286,
                           "hidden": false,
-                          "horizontalAlignment": "center",
-                          "horizontalSpacing": 0,
-                          "identifier": "plane:161854-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                          "isMaterialIdentifierEnabled": true,
+                          "identifier": "composition_model:160883-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
                           "layerIdentifier": "layer0",
-                          "materialIdentifier": "defaultMaterial:161858-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                          "modelName": "plane",
-                          "name": "plane1",
+                          "modelName": "composition_model",
+                          "name": "canvas0",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
-                          "receiveShadow": false,
-                          "renderPass": "main_scene",
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
                           "tags": [],
-                          "textureHeight": 0.1,
-                          "textureWidth": 0.1,
                           "transform": {
-                            "rx": -0.003665211144834757,
-                            "ry": -0.01673092134296894,
-                            "rz": 0.016565432772040367,
-                            "sx": 20.049358367919922,
-                            "sy": 2.607445001602173,
-                            "sz": 2.490649461746216,
-                            "x": -0.006938617676496506,
-                            "y": 0.13385270535945892,
-                            "z": -0.0003941357135772705
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0017482517287135124,
+                            "sy": 0.0017482517287135124,
+                            "sz": 0.0017482517287135124,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
                           },
-                          "verticalAlignment": "center",
-                          "verticalSpacing": 0
+                          "width": 266
                         },
                         {
                           "animationMask": {
@@ -495,6 +524,10 @@
                           "castShadow": false,
                           "children": [
                             {
+                              "identifier": "blend_shapes_model:160901-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "modelName": "blend_shapes_model"
+                            },
+                            {
                               "animationMask": {
                                 "position": false,
                                 "rotation": false,
@@ -502,13 +535,13 @@
                               },
                               "cameraVisibility": "back|front",
                               "castShadow": false,
-                              "hidden": true,
+                              "hidden": false,
                               "horizontalAlignment": "center",
                               "horizontalSpacing": 0,
-                              "identifier": "plane:160879-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "identifier": "plane:92994-da3660e5-e2c7-491b-949e-2a83829c3060",
                               "isMaterialIdentifierEnabled": true,
                               "layerIdentifier": "layer0",
-                              "materialIdentifier": "defaultMaterial:160542-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
                               "modelName": "plane",
                               "name": "plane0",
                               "outputVisibility": "preview|capture",
@@ -519,15 +552,15 @@
                               "textureHeight": 0.1,
                               "textureWidth": 0.1,
                               "transform": {
-                                "rx": 0.001785907195881009,
-                                "ry": 0.028871865943074226,
-                                "rz": 0.019443335011601448,
-                                "sx": 1.9808998107910156,
-                                "sy": 2.763967990875244,
-                                "sz": 0.9999990463256836,
-                                "x": 0.00917116366326809,
-                                "y": -0.12671130895614624,
-                                "z": 0.010361135005950928
+                                "rx": 0.028143566101789474,
+                                "ry": -0.042783528566360474,
+                                "rz": 0.03316812217235565,
+                                "sx": 0.5799201726913452,
+                                "sy": 0.5617957711219788,
+                                "sz": 0.9999996423721313,
+                                "x": -0.03254830092191696,
+                                "y": 0.029269061982631683,
+                                "z": -0.011045306921005249
                               },
                               "verticalAlignment": "center",
                               "verticalSpacing": 0
@@ -540,126 +573,35 @@
                               },
                               "cameraVisibility": "back|front",
                               "castShadow": false,
-                              "children": [
-                                {
-                                  "animationMask": {
-                                    "position": false,
-                                    "rotation": false,
-                                    "scale": false
-                                  },
-                                  "cameraVisibility": "back|front",
-                                  "hidden": false,
-                                  "identifier": "text_extrusion_front_model:161169-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "isMaterialIdentifierEnabled": true,
-                                  "layerIdentifier": "layer0",
-                                  "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "modelName": "text_extrusion_front_model",
-                                  "outputVisibility": "preview|capture",
-                                  "physicsEnabled": false,
-                                  "tags": [],
-                                  "transform": {
-                                    "rx": 0,
-                                    "ry": 0,
-                                    "rz": 0,
-                                    "sx": 1,
-                                    "sy": 1,
-                                    "sz": 1,
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                  }
-                                },
-                                {
-                                  "animationMask": {
-                                    "position": false,
-                                    "rotation": false,
-                                    "scale": false
-                                  },
-                                  "cameraVisibility": "back|front",
-                                  "hidden": false,
-                                  "identifier": "text_extrusion_back_model:161171-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "isMaterialIdentifierEnabled": true,
-                                  "layerIdentifier": "layer0",
-                                  "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "modelName": "text_extrusion_back_model",
-                                  "outputVisibility": "preview|capture",
-                                  "physicsEnabled": false,
-                                  "tags": [],
-                                  "transform": {
-                                    "rx": 0,
-                                    "ry": 0,
-                                    "rz": 0,
-                                    "sx": 1,
-                                    "sy": 1,
-                                    "sz": 1,
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                  }
-                                },
-                                {
-                                  "animationMask": {
-                                    "position": false,
-                                    "rotation": false,
-                                    "scale": false
-                                  },
-                                  "cameraVisibility": "back|front",
-                                  "hidden": false,
-                                  "identifier": "text_extrusion_side_model:161173-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "isMaterialIdentifierEnabled": true,
-                                  "layerIdentifier": "layer0",
-                                  "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                                  "modelName": "text_extrusion_side_model",
-                                  "outputVisibility": "preview|capture",
-                                  "physicsEnabled": false,
-                                  "tags": [],
-                                  "transform": {
-                                    "rx": 0,
-                                    "ry": 0,
-                                    "rz": 0,
-                                    "sx": 1,
-                                    "sy": 1,
-                                    "sz": 1,
-                                    "x": 0,
-                                    "y": 0,
-                                    "z": 0
-                                  }
-                                }
-                              ],
-                              "depth": 0.1,
-                              "editable": false,
-                              "fontIdentifier": "local_font_model:161851-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
                               "hidden": false,
-                              "identifier": "text_extrusion_model:161167-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                              "isDynamicText": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:93210-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "isMaterialIdentifierEnabled": true,
                               "layerIdentifier": "layer0",
-                              "letterSpacing": 0,
-                              "lineSpacing": 0,
-                              "modelName": "text_extrusion_model",
-                              "name": "3dText0",
+                              "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "modelName": "plane",
+                              "name": "plane1",
                               "outputVisibility": "preview|capture",
                               "physicsEnabled": false,
                               "receiveShadow": false,
                               "renderPass": "main_scene",
                               "tags": [],
-                              "text": "Nunca\nMás",
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
                               "transform": {
-                                "rx": -0.03566562384366989,
-                                "ry": -0.0029502345714718103,
-                                "rz": 0.04719528928399086,
-                                "sx": 0.0012500006705522537,
-                                "sy": 0.001250000554136932,
-                                "sz": 0.0012500017182901502,
-                                "x": -0.030332159250974655,
-                                "y": -0.09893789887428284,
-                                "z": 0.01993235945701599
+                                "rx": 0.06937943398952484,
+                                "ry": -0.022268353030085564,
+                                "rz": 0.011133551597595215,
+                                "sx": 0.5799198746681213,
+                                "sy": 0.5617956519126892,
+                                "sz": 0.9999996423721313,
+                                "x": 0.03113456629216671,
+                                "y": 0.028712624683976173,
+                                "z": -0.014214038848876953
                               },
-                              "uTexCoordMode": "restart",
-                              "vTexCoordMode": "restart"
-                            },
-                            {
-                              "identifier": "blend_shapes_model:160901-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
-                              "modelName": "blend_shapes_model"
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
                             },
                             {
                               "animationMask": {
@@ -668,33 +610,40 @@
                                 "scale": false
                               },
                               "cameraVisibility": "back|front",
-                              "height": 445,
+                              "castShadow": false,
                               "hidden": false,
-                              "identifier": "composition_model:160883-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:93413-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "isMaterialIdentifierEnabled": true,
                               "layerIdentifier": "layer0",
-                              "modelName": "composition_model",
-                              "name": "canvas0",
+                              "materialIdentifier": "defaultMaterial:161175-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                              "modelName": "plane",
+                              "name": "plane2",
                               "outputVisibility": "preview|capture",
                               "physicsEnabled": false,
-                              "sizingMode": "full_screen",
-                              "spaceMode": "camera_space",
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
                               "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
                               "transform": {
-                                "rx": 0,
-                                "ry": 0,
-                                "rz": 0,
-                                "sx": 0.001123595517128706,
-                                "sy": 0.001123595517128706,
-                                "sz": 0.001123595517128706,
-                                "x": 0,
-                                "y": 0,
-                                "z": 0
+                                "rx": 0.11097957193851471,
+                                "ry": -0.06900952011346817,
+                                "rz": -0.03879748657345772,
+                                "sx": 1.089036464691162,
+                                "sy": 0.5360725522041321,
+                                "sz": 0.9999992847442627,
+                                "x": 0.005721745081245899,
+                                "y": -0.045051056891679764,
+                                "z": 0.0009666085243225098
                               },
-                              "width": 288
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
                             }
                           ],
                           "drawHalo": false,
-                          "eyesMode": "empty",
+                          "eyesMode": "patched",
                           "faceDistortionMode": "vertex",
                           "faceId": 0,
                           "faceMeshResolution": "high",
@@ -702,9 +651,9 @@
                           "identifier": "facehigh:160899-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
                           "isMaterialIdentifierEnabled": true,
                           "layerIdentifier": "layer0",
-                          "materialIdentifier": "defaultMaterial:160542-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
+                          "materialIdentifier": "defaultMaterial:161858-01cb421a-9a28-43ec-9caf-f9be2ac1e3d6",
                           "modelName": "facehigh",
-                          "mouthMode": "empty",
+                          "mouthMode": "patched",
                           "name": "faceMesh0",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
@@ -722,6 +671,131 @@
                             "y": 0,
                             "z": 0
                           }
+                        },
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "identifier": "text_extrusion_front_model:93534-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:93540-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "modelName": "text_extrusion_front_model",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              }
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "identifier": "text_extrusion_back_model:93536-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:93540-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "modelName": "text_extrusion_back_model",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              }
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "identifier": "text_extrusion_side_model:93538-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:93540-da3660e5-e2c7-491b-949e-2a83829c3060",
+                              "modelName": "text_extrusion_side_model",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              }
+                            }
+                          ],
+                          "depth": 10,
+                          "editable": false,
+                          "fontIdentifier": "local_font_model:94306-da3660e5-e2c7-491b-949e-2a83829c3060",
+                          "hidden": false,
+                          "identifier": "text_extrusion_model:93532-da3660e5-e2c7-491b-949e-2a83829c3060",
+                          "isDynamicText": false,
+                          "layerIdentifier": "layer0",
+                          "letterSpacing": 0,
+                          "lineSpacing": 0,
+                          "modelName": "text_extrusion_model",
+                          "name": "3dText0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "text": "IMPUNIDAD",
+                          "transform": {
+                            "rx": 0.3846343159675598,
+                            "ry": 0.008794368244707584,
+                            "rz": 0.008080718107521534,
+                            "sx": 0.0012499999720603228,
+                            "sy": 0.0012500002048909664,
+                            "sz": 0.0012500002048909664,
+                            "x": -0.12174634635448456,
+                            "y": 0.2080519050359726,
+                            "z": -0.034296244382858276
+                          },
+                          "uTexCoordMode": "restart",
+                          "vTexCoordMode": "restart"
                         }
                       ],
                       "faceId": 0,
